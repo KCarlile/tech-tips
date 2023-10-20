@@ -8,6 +8,7 @@ This repo is a personal collection of tech tips to which I will be contributing 
 
 ## Index
 
+- [Jekyll](jekyll.md)
 - [Regular Expressions (RegEx)](regex.md)
 
 ## Usage
