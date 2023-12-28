@@ -1,4 +1,4 @@
-# JavaScript
+# Python
 
 ## Make File Runnable as Script or When Imported/Called by Another File
 
