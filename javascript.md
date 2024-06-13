@@ -44,3 +44,27 @@ In `whatever.html`:
 When the current year matches the starting year (e.g., 2023), the output generated is: `Copyright © Some Company 2023`
 
 When the current year (e.g., 2025) _does not_ match the starting year (e.g., 2023), the output generated is: `Copyright © Some Company 2023-2025`
+
+## Data Handling
+
+### Deep Copy Array
+
+See [Guitar Diagrams JS issue #42](https://github.com/KCarlile/guitar-diagrams-js/issues/42) for reference.
+
+The `reverse()` method on an array mutates the original array, so assigning an array to another variable and then calling `reverse()` on the new reference _also_ changes the original array. For example:
+
+```javascript
+let arr1 = [1, 2, 3];
+let arr2 = arr1.reverse();
+
+// now BOTH arrays are [3, 2, 1]
+```
+
+As a workaround, deep copy the array like this:
+
+```javascript
+let arr1 = [1, 2, 3];
+let arr2 = [...arr1].reverse();
+
+// now arr1 is [1, 2, 3] and arr2 is [3, 2, 1]
+```
