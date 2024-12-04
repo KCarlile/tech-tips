@@ -8,11 +8,13 @@ This repo is a personal collection of tech tips to which I will be contributing 
 
 ## Index
 
+- [Git](git.md)
 - [JavaScript](javascript.md)
 - [Jekyll](jekyll.md)
 - [PHP](php.md)
 - [Python](python.md)
 - [Regular Expressions (RegEx)](regex.md)
+- [Spreadsheets](spreadsheets.md)
 
 ## Usage
 
