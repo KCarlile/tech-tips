@@ -10,6 +10,6 @@ Source: [YouTube: ExcelMoments - Second to last non-blank cell excel](https://ww
 
 ### Second to Last Value in a Column
 
-`=INDEX(FILTER('Team Metrics'!$AJ$3:$AJ$203, 'Team Metrics'!$AJ$3:$AJ$203<>""),COUNTA('Team Metrics'!$AJ$3:$AJ$203)-1,1)`
+`=INDEX(FILTER('Team Metrics'!$AJ$4:$AJ$204, 'Team Metrics'!$AJ$4:$AJ$204<>""),COUNTA(FILTER('Team Metrics'!$AJ$4:$AJ$204, 'Team Metrics'!$AJ$4:$AJ$204<>""))-1,1)`
 
-Source: [YouTube: ExcelMoments - Second to last non-blank cell excel](https://www.youtube.com/watch?v=5dqG_BoZOFc)
+Source, modified: [YouTube: ExcelMoments - Second to last non-blank cell excel](https://www.youtube.com/watch?v=5dqG_BoZOFc)
